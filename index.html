@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>麻豆国际版 - 全球精选内容每日上新，发现你的专属精彩</title>
+    <meta name="description" content="麻豆国际版汇聚全球海量独家精品内容，每日更新300+优质资源，涵盖热门精选、新人榜单、独家内容和VIP专享四大频道。无论你是寻找最新潮流资讯、独家创作还是高品质娱乐内容，麻豆国际版都能满足你的需求。平台采用智能推荐算法，根据你的喜好精准匹配内容，让你不再错过任何精彩。新用户注册即享7天VIP体验，解锁全部功能。">
+    <meta name="keywords" content="麻豆国际版,麻豆,国际版,精选内容,独家内容,热门精选,新人推荐,VIP专区">
+    <link rel="canonical" href="https://mdgjb.pages.dev/">
+    <meta property="og:title" content="麻豆国际版 - 全球精选内容每日上新，发现你的专属精彩">
+    <meta property="og:description" content="麻豆国际版汇聚全球海量独家精品内容，每日更新300+优质资源，涵盖热门精选、新人榜单、独家内容和VIP专享四大频道。新用户注册即享7天VIP体验，解锁全部功能。">
+    <meta property="og:url" content="https://mdgjb.pages.dev/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="麻豆国际版">
+    <meta property="og:locale" content="zh_CN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="麻豆国际版 - 全球精选内容每日上新，发现你的专属精彩">
+    <meta name="twitter:description" content="麻豆国际版汇聚全球海量独家精品内容，每日更新300+优质资源，涵盖热门精选、新人榜单、独家内容和VIP专享四大频道。">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "麻豆国际版",
+            "url": "https://mdgjb.pages.dev/",
+            "description": "麻豆国际版汇聚全球海量独家精品内容，每日更新300+优质资源，涵盖热门精选、新人榜单、独家内容和VIP专享四大频道。",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://mdgjb.pages.dev/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+    
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<script type="application/ld+json">{"@context":"https://ziyuan.baidu.com/contexts/cambrian.jsonld","@id":"https://mdgjb.pages.dev/","title":"麻豆国际版 - 全球精选内容每日上新，发现你的专属精彩","pubDate":"2026-10-23T16:50:24","upDate":"2026-10-23T16:50:24"}</script>
+<link rel="stylesheet" href="assets/y9pzyu.css">
+</head>
+<body>
+
+    <!-- ===== 促销条 ===== -->
+    <div class="promo-strip" id="promoStrip">
+        <span class="promo-icon">🔥</span>
+        <span>限时活动：新用户注册即享 <a href="#" class="promo-link">7天VIP体验</a>，解锁全部独家内容</span>
+        <button class="promo-close" onclick="document.getElementById('promoStrip').style.display='none';document.body.style.paddingTop='var(--nav-height)';document.querySelector('.main-navbar').style.top='0';" aria-label="关闭促销条">&times;</button>
+    </div>
+
+    <!-- ===== 主导航 ===== -->
+    <nav class="main-navbar" id="mainNavbar">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">麻豆国际版<span class="logo-dot"></span></a>
+            <div class="nav-links-desktop" id="navLinksDesktop">
+                <a href="/" class="nav-link-item active">首页</a>
+                <a href="#category1" class="nav-link-item nav-hot">热门精选</a>
+                <a href="#category2" class="nav-link-item">新人榜单</a>
+                <a href="#category3" class="nav-link-item">独家内容</a>
+                <a href="#category4" class="nav-link-item">VIP专享</a>
+            </div>
+            <div class="nav-actions">
+                <div class="nav-search-wrap">
+                    <input type="text" class="nav-search-input" placeholder="搜索内容..." aria-label="搜索">
+                    <button class="nav-search-btn" aria-label="搜索"><i class="bi bi-search"></i></button>
+                </div>
+                <a href="#" class="nav-cta-btn"><i class="bi bi-star-fill"></i> 立即加入</a>
+                <button class="nav-hamburger" id="hamburgerBtn" aria-label="菜单">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== 移动端抽屉 ===== -->
+    <div class="mobile-drawer-overlay" id="drawerOverlay"></div>
+    <div class="mobile-drawer" id="mobileDrawer">
+        <button class="drawer-close" id="drawerClose" aria-label="关闭菜单">&times;</button>
+        <a href="/" class="drawer-link active">首页</a>
+        <a href="#category1" class="drawer-link">热门精选</a>
+        <a href="#category2" class="drawer-link">新人榜单</a>
+        <a href="#category3" class="drawer-link">独家内容</a>
+        <a href="#category4" class="drawer-link">VIP专享</a>
+        <a href="#" class="drawer-cta">立即加入VIP</a>
+    </div>
+
+    <!-- ===== Hero 区 ===== -->
+    <section class="hero-section">
+        <div class="page-container">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <h1>在<span class="highlight">麻豆国际版</span>，好看的内容从来不会断更</h1>
+                    <p class="hero-subtitle">全球精选内容每日上新，300+优质资源持续更新。热门精选、新人榜单、独家内容、VIP专享四大频道全覆盖，智能推荐精准匹配你的口味。</p>
+                    <div class="hero-stats-row">
+                        <div class="hero-stat-item">
+                            <span class="stat-number">50万+</span>
+                            <span class="stat-label">注册用户</span>
+                        </div>
+                        <div class="hero-stat-item">
+                            <span class="stat-number">300+</span>
+                            <span class="stat-label">每日更新</span>
+                        </div>
+                        <div class="hero-stat-item">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">用户满意度</span>
+                        </div>
+                        <div class="hero-stat-item">
+                            <span class="stat-number">4.9</span>
+                            <span class="stat-label">综合评分</span>
+                        </div>
+                    </div>
+                    <div class="hero-cta-group">
+                        <a href="#" class="btn-hero-primary"><i class="bi bi-rocket-takeoff"></i> 免费注册体验</a>
+                        <a href="#category1" class="btn-hero-outline"><i class="bi bi-grid-3x3-gap"></i> 浏览热门精选</a>
+                    </div>
+                </div>
+                <div class="hero-cards-cluster">
+                    <div class="hero-mini-card">
+                        <span class="mini-card-icon">📌</span>
+                        <div class="mini-card-title">热门精选</div>
+                        <div class="mini-card-desc">每日Top100精选内容实时更新</div>
+                    </div>
+                    <div class="hero-mini-card">
+                        <span class="mini-card-icon">🌟</span>
+                        <div class="mini-card-title">新人榜单</div>
+                        <div class="mini-card-desc">新晋创作者优质内容推荐</div>
+                    </div>
+                    <div class="hero-mini-card">
+                        <span class="mini-card-icon">🔒</span>
+                        <div class="mini-card-title">独家内容</div>
+                        <div class="mini-card-desc">平台独家签约创作者作品</div>
+                    </div>
+                    <div class="hero-mini-card">
+                        <span class="mini-card-icon">👑</span>
+                        <div class="mini-card-title">VIP专享</div>
+                        <div class="mini-card-desc">会员专属高品质内容合集</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 主内容区 ===== -->
+    <main>
+
+        <!-- 板块1：分类入口 -->
+        <section class="section-spacing" id="categoryEntrance">
+            <div class="page-container">
+                <div class="section-header">
+                    <span class="section-title">探索频道</span>
+                    <span class="text-tertiary" style="font-size:13px;">选择你感兴趣的内容频道</span>
+                </div>
+                <div class="category-entrance-grid">
+                    <a href="#category1" class="category-card cat-card-1">
+                        <span class="cat-badge-new">HOT</span>
+                        <div class="cat-icon-circle">📌</div>
+                        <div class="cat-title">热门精选</div>
+                        <div class="cat-count">12,860+ 条内容</div>
+                    </a>
+                    <a href="#category2" class="category-card cat-card-2">
+                        <div class="cat-icon-circle">🌟</div>
+                        <div class="cat-title">新人榜单</div>
+                        <div class="cat-count">3,420+ 条内容</div>
+                    </a>
+                    <a href="#category3" class="category-card cat-card-3">
+                        <div class="cat-icon-circle">🔒</div>
+                        <div class="cat-title">独家内容</div>
+                        <div class="cat-count">5,180+ 条内容</div>
+                    </a>
+                    <a href="#category4" class="category-card cat-card-4">
+                        <div class="cat-icon-circle">👑</div>
+                        <div class="cat-title">VIP专享</div>
+                        <div class="cat-count">8,750+ 条内容</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块2：热门精选锚点区 -->
+        <section class="section-spacing bg-light-grey" id="category1">
+            <div class="page-container">
+                <div class="section-header">
+                    <span class="section-title">📌 热门精选</span>
+                    <a href="#categoryEntrance" class="section-more">查看更多 <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="content-card-grid">
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="card-tag tag-hot">热门</span>
+                            <span class="badge-status badge-success">更新中</span>
+                        </div>
+                        <div class="card-title">2026年度最受欢迎内容合集——全球用户都在看的精选推荐</div>
+                        <div class="card-meta">
+                            <span><i class="bi bi-eye"></i> 128K</span>
+                            <span><i class="bi bi-heart"></i> 36K</span>
+                            <span>2小时前</span>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="card-tag tag-hot">热门</span>
+                            <span class="badge-status badge-success">连载中</span>
+                        </div>
+                        <div class="card-title">本周飙升最快的内容盘点，错过任何一条都可惜</div>
+                        <div class="card-meta">
+                            <span><i class="bi bi-eye"></i> 96K</span>
+                            <span><i class="bi bi-heart"></i> 28K</span>
+                            <span>5小时前</span>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="card-tag tag-hot">热门</span>
+                            <span class="badge-status badge-success">完结</span>
+                        </div>
+                        <div class="card-title">编辑部力荐：本月口碑最好的十部作品一次看完</div>
+                        <div class="card-meta">
+                            <span><i class="bi bi-eye"></i> 84K</span>
+                            <span><i class="bi bi-heart"></i> 22K</span>
+                            <span>8小时前</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块3：数据统计条 -->
+        <section class="section-spacing-sm">
+            <div class="page-container">
+                <div class="stats-strip">
+                    <div class="stat-block">
+                        <div class="stat-big">50万+</div>
+                        <div class="stat-desc">全球注册用户</div>
+                    </div>
+                    <div class="stat-block">
+                        <div class="stat-big">15万+</div>
+                        <div class="stat-desc">内容资源总量</div>
+                    </div>
+                    <div class="stat-block">
+                        <div class="stat-big">300+</div>
+                        <div class="stat-desc">每日新增内容</div>
+                    </div>
+                    <div class="stat-block">
+                        <div class="stat-big">99.6%</div>
+                        <div class="stat-desc">服务可用率</div>
+                    </div>
+                    <div class="stat-block">
+                        <div class="stat-big">4.9/5</div>
+                        <div class="stat-desc">用户综合评分</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块4：新人榜单锚点区 -->
+        <section class="section-spacing" id="category2">
+            <div class="page-container">
+                <div class="section-header">
+                    <span class="section-title">🌟 新人榜单</span>
+                    <a href="#categoryEntrance" class="section-more">查看更多 <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="content-card-grid">
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="card-tag tag-new">新晋</span>
+                            <span class="badge-status badge-info">首周上榜</span>
+                        </div>
+                        <div class="card-title">新人创作者带来全新视角，这部作品上线三天播放破50万</div>
+                        <div class="card-meta">
+                            <span><i class="bi bi-eye"></i> 52K</span>
+                            <span><i class="bi bi-heart"></i> 14K</span>
+                            <span>1天前</span>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="card-tag tag-new">新晋</span>
+                            <span class="badge-status badge-info">快速上升</span>
+                        </div>
+                        <div class="card-title">这位新人凭什么一周涨粉10万？来看看她的独家创作</div>
+                        <div class="card-meta">
+                            <span><i class="bi bi-eye"></i> 41K</span>
+                            <span><i class="bi bi-heart"></i> 11K</span>
+                            <span>2天前</span>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="card-tag tag-new">新晋</span>
+                            <span class="badge-status badge-info">潜力股</span>
+                        </div>
+                        <div class="card-title">编辑部特别推荐：三位新面孔带来的惊喜作品合集</div>
+                        <div class="card-meta">
+                            <span><i class="bi bi-eye"></i> 35K</span>
+                            <span><i class="bi bi-heart"></i> 9K</span>
+                            <span>3天前</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块5：排行榜 -->
+        <section class="section-spacing bg-rose-light">
+            <div class="page-container">
+                <div class="section-header">
+                    <span class="section-title">🏆 本周热度排行榜</span>
+                    <span style="font-size:12px;color:var(--text-tertiary);">实时更新</span>
+                </div>
+                <div class="rank-list">
+                    <div class="rank-item">
+                        <span class="rank-num">01</span>
+                        <div class="rank-info">
+                            <div class="rank-title">全球用户票选年度最佳——这部作品凭什么霸榜八周</div>
+                            <div class="rank-meta">播放量 286K · 评论 12K</div>
+                        </div>
+                        <span class="rank-badge badge-up">↑ 上升</span>
+                    </div>
+                    <div class="rank-item">
+                        <span class="rank-num">02</span>
+                        <div class="rank-info">
+                            <div class="rank-title">独家签约创作者最新力作，上线即引爆全网讨论</div>
+                            <div class="rank-meta">播放量 241K · 评论 9.8K</div>
+                        </div>
+                        <span class="rank-badge badge-hot">🔥 热门</span>
+                    </div>
+                    <div class="rank-item">
+                        <span class="rank-num">03</span>
+                        <div class="rank-info">
+                            <div class="rank-title">跨平台联动特别企划：四位人气创作者首次合作</div>
+                            <div class="rank-meta">播放量 198K · 评论 7.5K</div>
+                        </div>
+                        <span class="rank-badge badge-up">↑ 上升</span>
+                    </div>
+                    <div class="rank-item">
+                        <span class="rank-num">04</span>
+                        <div class="rank-info">
+                            <div class="rank-title">深夜档口碑神作回归，第二季首集质量全面超越前作</div>
+                            <div class="rank-meta">播放量 165K · 评论 6.2K</div>
+                        </div>
+                        <span class="rank-badge badge-up">↑ 上升</span>
+                    </div>
+                    <div class="rank-item">
+                        <span class="rank-num">05</span>
+                        <div class="rank-info">
+                            <div class="rank-title">素人投稿意外走红，真实故事改编引发全网共鸣</div>
+                            <div class="rank-meta">播放量 142K · 评论 5.1K</div>
+                        </div>
+                        <span class="rank-badge badge-hot">🔥 热门</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块6：独家内容锚点区 -->
+        <section class="section-spacing" id="category3">
+            <div class="page-container">
+                <div class="section-header">
+                    <span class="section-title">🔒 独家内容</span>
+                    <a href="#categoryEntrance" class="section-more">查看更多 <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="content-card-grid">
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="card-tag tag-exclusive">独家</span>
+                            <span class="badge-status badge-warning">限时开放</span>
+                        </div>
+                        <div class="card-title">平台独家签约：头部创作者年度重磅企划首曝</div>
+                        <div class="card-meta">
+                            <span><i class="bi bi-eye"></i> 73K</span>
+                            <span><i class="bi bi-lock"></i> 独家</span>
+                            <span>6小时前</span>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="card-tag tag-exclusive">独家</span>
+                            <span class="badge-status badge-warning">会员抢先</span>
+                        </div>
+                        <div class="card-title">仅此一家：国际版专属内容系列持续更新中</div>
+                        <div class="card-meta">
+                            <span><i class="bi bi-eye"></i> 58K</span>
+                            <span><i class="bi bi-lock"></i> 独家</span>
+                            <span>12小时前</span>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="card-tag tag-exclusive">独家</span>
+                            <span class="badge-status badge-warning">即将下架</span>
+                        </div>
+                        <div class="card-title">限时独家放送：三位创作者联合出品的特别企划</div>
+                        <div class="card-meta">
+                            <span><i class="bi bi-eye"></i> 44K</span>
+                            <span><i class="bi bi-lock"></i> 独家</span>
+                            <span>18小时前</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块7：VIP专享锚点区 -->
+        <section class="section-spacing bg-mint-light" id="category4">
+            <div class="page-container">
+                <div class="section-header">
+                    <span class="section-title">👑 VIP专享</span>
+                    <a href="#categoryEntrance" class="section-more">查看更多 <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="content-card-grid">
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="card-tag tag-vip">VIP</span>
+                            <span class="badge-status badge-success">高清</span>
+                        </div>
+                        <div class="card-title">VIP会员专属：4K超清画质内容合集，沉浸式观看体验</div>
+                        <div class="card-meta">
+                            <span><i class="bi bi-eye"></i> 38K</span>
+                            <span><i class="bi bi-gem"></i> VIP</span>
+                            <span>4小时前</span>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="card-tag tag-vip">VIP</span>
+                            <span class="badge-status badge-success">完整版</span>
+                        </div>
+                        <div class="card-title">会员尊享：未删减完整版内容系列，全网仅此可看</div>
+                        <div class="card-meta">
+                            <span><i class="bi bi-eye"></i> 31K</span>
+                            <span><i class="bi bi-gem"></i> VIP</span>
+                            <span>10小时前</span>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="card-tag tag-vip">VIP</span>
+                            <span class="badge-status badge-success">首发</span>
+                        </div>
+                        <div class="card-title">VIP抢先看：下周重磅内容提前解锁，比别人早看三天</div>
+                        <div class="card-meta">
+                            <span><i class="bi bi-eye"></i> 27K</span>
+                            <span><i class="bi bi-gem"></i> VIP</span>
+                            <span>16小时前</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块8：VIP 高亮卡片 -->
+        <section class="section-spacing-sm">
+            <div class="page-container">
+                <div class="vip-highlight-card">
+                    <span class="vip-icon-large">👑</span>
+                    <div class="vip-info">
+                        <h3>加入麻豆国际版VIP，解锁全部精彩</h3>
+                        <p>会员专享4K超清画质、未删减完整版、独家内容抢先看、专属客服通道，还有每月会员日活动。新用户首月仅需半价。</p>
+                    </div>
+                    <a href="#" class="btn-vip-join"><i class="bi bi-gem"></i> 立即开通VIP</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块9：资讯动态 -->
+        <section class="section-spacing">
+            <div class="page-container">
+                <div class="section-header">
+                    <span class="section-title">📰 平台动态</span>
+                    <a href="#" class="section-more">全部动态 <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="content-card-grid">
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="badge-status badge-info">公告</span>
+                            <span style="font-size:12px;color:var(--text-tertiary);">3天前</span>
+                        </div>
+                        <div class="card-title">麻豆国际版全新智能推荐算法上线，内容匹配精准度提升40%</div>
+                        <div class="card-stats">
+                            <span><i class="bi bi-chat-dots"></i> 1.2K评论</span>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="badge-status badge-success">活动</span>
+                            <span style="font-size:12px;color:var(--text-tertiary);">5天前</span>
+                        </div>
+                        <div class="card-title">年度创作者盛典投票通道开启，为你喜欢的创作者助力</div>
+                        <div class="card-stats">
+                            <span><i class="bi bi-chat-dots"></i> 3.5K评论</span>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <span class="badge-status badge-warning">更新</span>
+                            <span style="font-size:12px;color:var(--text-tertiary);">1周前</span>
+                        </div>
+                        <div class="card-title">国际版多语言界面全面升级，新增6种语言支持</div>
+                        <div class="card-stats">
+                            <span><i class="bi bi-chat-dots"></i> 890评论</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块10：用户评价 -->
+        <section class="section-spacing bg-light-grey">
+            <div class="page-container">
+                <div class="section-header">
+                    <span class="section-title">💬 用户都在说</span>
+                    <span style="font-size:12px;color:var(--text-tertiary);">来自真实用户反馈</span>
+                </div>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <div class="t-quote">"用了麻豆国际版快一年了，每天打开都能看到新鲜内容，推荐算法确实很懂我的口味，已经推荐给身边好几个朋友了。"</div>
+                        <div class="t-author">@城市旅人</div>
+                        <div class="t-date">VIP会员 · 使用11个月</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="t-quote">"之前试过好几个平台，麻豆国际版的内容更新速度和画质确实领先不少，独家内容也很有看头，会员费花得很值。"</div>
+                        <div class="t-author">@深海鲸鱼</div>
+                        <div class="t-date">VIP会员 · 使用8个月</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="t-quote">"新人榜单这个板块特别好，经常能发现一些宝藏创作者，而且平台对新人也很友好，内容生态很健康。"</div>
+                        <div class="t-author">@午后阳光</div>
+                        <div class="t-date">注册用户 · 使用6个月</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块11：FAQ -->
+        <section class="section-spacing">
+            <div class="page-container">
+                <div class="section-header">
+                    <span class="section-title">常见问题</span>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFaq(this)">麻豆国际版有哪些内容频道？<i class="bi bi-chevron-down"></i></button>
+                        <div class="faq-answer">麻豆国际版目前设有四大核心频道：热门精选每日更新Top100优质内容；新人榜单聚焦新晋创作者的优秀作品；独家内容为平台签约创作者专属发布；VIP专享提供4K超清画质及未删减完整版等会员尊享体验。</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFaq(this)">VIP会员有哪些专属权益？<i class="bi bi-chevron-down"></i></button>
+                        <div class="faq-answer">VIP会员可享受4K超清画质、未删减完整版内容、独家内容抢先看（比普通用户早3天）、专属客服通道、每月会员日特惠活动，以及优先参与平台线下活动的资格。</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFaq(this)">新用户注册有优惠吗？<i class="bi bi-chevron-down"></i></button>
+                        <div class="faq-answer">新用户注册即可获得7天VIP免费体验，体验期间可畅享全部VIP权益。体验结束后，首月订阅还可享受半价优惠，欢迎加入麻豆国际版。</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块12：CTA收口 -->
+        <section class="section-spacing">
+            <div class="page-container">
+                <div class="cta-banner">
+                    <h2>麻豆国际版准备好发现更多精彩了吗？</h2>
+                    <p>加入麻豆国际版，50万用户的选择。注册即享7天VIP体验，解锁全部内容。</p>
+                    <a href="#" class="btn-cta-large"><i class="bi bi-rocket-takeoff"></i> 免费注册，立即体验</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+        <div class="page-container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand">麻豆国际版</div>
+                    <p class="footer-desc">全球精选内容平台，每日更新300+优质资源。热门精选、新人榜单、独家内容、VIP专享四大频道，为你带来不间断的精彩体验。</p>
+                </div>
+                <div class="footer-col">
+                    <h4>内容频道</h4>
+                    <ul>
+                        <li><a href="#category1">热门精选</a></li>
+                        <li><a href="#category2">新人榜单</a></li>
+                        <li><a href="#category3">独家内容</a></li>
+                        <li><a href="#category4">VIP专享</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>关于我们</h4>
+                    <ul>
+                        <li><a href="#">平台介绍</a></li>
+                        <li><a href="#">合作联系</a></li>
+                        <li><a href="#">用户协议</a></li>
+                        <li><a href="#">隐私政策</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>帮助支持</h4>
+                    <ul>
+                        <li><a href="#">常见问题</a></li>
+                        <li><a href="#">联系客服</a></li>
+                        <li><a href="#">反馈建议</a></li>
+                        <li><a href="#">加入我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 麻豆国际版 mdgjb.pages.dev · 保留所有权利
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS CDN -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js">
+    </script>
+    <script>
+        // 移动端抽屉菜单
+        (function() {
+            const hamburger = document.getElementById('hamburgerBtn');
+            const drawer = document.getElementById('mobileDrawer');
+            const overlay = document.getElementById('drawerOverlay');
+            const closeBtn = document.getElementById('drawerClose');
+            const drawerLinks = drawer.querySelectorAll('.drawer-link');
+
+            function openDrawer() {
+                drawer.classList.add('show');
+                overlay.classList.add('show');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeDrawer() {
+                drawer.classList.remove('show');
+                overlay.classList.remove('show');
+                document.body.style.overflow = '';
+            }
+            hamburger.addEventListener('click', openDrawer);
+            closeBtn.addEventListener('click', closeDrawer);
+            overlay.addEventListener('click', closeDrawer);
+            drawerLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    setTimeout(closeDrawer, 150);
+                });
+            });
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && drawer.classList.contains('show')) {
+                    closeDrawer();
+                }
+            });
+        })();
+
+        // FAQ折叠
+        function toggleFaq(btn) {
+            var item = btn.closest('.faq-item');
+            if (item.classList.contains('open')) {
+                item.classList.remove('open');
+                btn.querySelector('i').className = 'bi bi-chevron-down';
+            } else {
+                item.classList.add('open');
+                btn.querySelector('i').className = 'bi bi-chevron-up';
+            }
+        }
+
+        // 导航栏滚动阴影
+        (function() {
+            var navbar = document.getElementById('mainNavbar');
+            var scrollThreshold = 10;
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > scrollThreshold) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+        })();
+
+        // 导航链接active状态（锚点滚动监听）
+        (function() {
+            var navLinks = document.querySelectorAll('#navLinksDesktop .nav-link-item[href^="#"]');
+            var sections = [];
+            navLinks.forEach(function(link) {
+                var id = link.getAttribute('href').substring(1);
+                var el = document.getElementById(id);
+                if (el) sections.push({ el: el, link: link });
+            });
+            if (sections.length === 0) return;
+            window.addEventListener('scroll', function() {
+                var scrollPos = window.scrollY + 120;
+                var activeLink = null;
+                sections.forEach(function(s) {
+                    if (s.el.offsetTop <= scrollPos) {
+                        activeLink = s.link;
+                    }
+                });
+                navLinks.forEach(function(l) { l.classList.remove('active'); });
+                if (activeLink) activeLink.classList.add('active');
+                // 如果滚到顶部附近，激活首页
+                if (window.scrollY < 200) {
+                    navLinks.forEach(function(l) { l.classList.remove('active'); });
+                    var homeLink = document.querySelector('#navLinksDesktop .nav-link-item[href="/"]');
+                    if (homeLink) homeLink.classList.add('active');
+                }
+            });
+        })();
+    </script>
+</body>
+</html>
